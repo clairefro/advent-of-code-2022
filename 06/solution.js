@@ -23,11 +23,8 @@ const scanForSignal = (str, msgSize) => {
 
 console.log("## PART 1 ##");
 const PACKET_SIZE = 4;
-
-console.log("chars processed for first full package match");
 console.log(scanForSignal(raw, PACKET_SIZE) + PACKET_SIZE);
 
 console.log("## PART 2 ##");
 const MESSAGE_SIZE = 14;
-console.log("chars processed for first full message match");
 console.log(scanForSignal(raw, MESSAGE_SIZE) + MESSAGE_SIZE);
